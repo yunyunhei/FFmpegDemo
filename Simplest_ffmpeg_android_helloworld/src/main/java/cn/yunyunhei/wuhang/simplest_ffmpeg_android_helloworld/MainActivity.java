@@ -15,5 +15,8 @@ public class MainActivity extends AppCompatActivity {
         NdkJniUtils ndkJniUtils = new NdkJniUtils();
         String cLanguageString = ndkJniUtils.getCLanguageString();
         LogUtil.d("infoinfo","cLanguageString : "+cLanguageString);
+
+        String stringFromJNI = ndkJniUtils.stringFromJNI();
+        LogUtil.d("infoinfo","stringFromJNI : "+stringFromJNI);
     }
 }
