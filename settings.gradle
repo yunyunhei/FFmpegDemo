@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':Simplest_ffmpeg_android_helloworld'
